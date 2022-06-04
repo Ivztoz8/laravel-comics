@@ -20,7 +20,7 @@
     </div>     
 </div>
     <nav class="nav p-3 bg-light align-items-center justify-content-center">
-        <img src="{{ asset('/images/dc-logo.png') }}" alt="dc logo" width="50" height="50" class="me-5">
+        <img src="{{ asset('/images/dc-logo.png') }}" alt="dc logo" width="70" height="70" class="me-5">
         <a class="nav-link text-dark text-uppercase" href="#">characters</a>
         <a class="nav-link text-dark text-uppercase" href="#">comics</a>
         <a class="nav-link text-dark text-uppercase" href="#">movies</a>
@@ -42,7 +42,15 @@
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Sign in</a></li>
                 </ul>
+
+                <div class="d-flex align-items-center justify-content-center pt-3 ps-3">
+                    <div class="input-group input-group-sm mb-3 border-bottom border-primary">
+                        <input type="text" class="form-control border-0" placeholder="Search" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                       <a href="#"><img src="{{asset('/images/icons8-ricerca-24.png')}}" alt="logo search"></a> 
+                    </div>
+                </div>
         </div>
+        
     </nav>
     
 </div>
